@@ -1,7 +1,7 @@
 {
   "name": "watch-party-backend",
   "version": "1.0.0",
-  "description": "Backend server for YouTube Watch Party (Express + Socket.IO)",
+  "description": "",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
