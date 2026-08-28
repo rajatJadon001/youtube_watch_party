@@ -416,7 +416,7 @@ const PORT = process.env.PORT || 5000;
 db.initDb()
   .then(() => {
     server.listen(PORT, () => {
-      console.log(`Port ${PORT}`);
+      console.log(`Server running on port ${PORT}`);
     });
   })
   .catch((err) => {
