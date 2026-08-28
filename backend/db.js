@@ -101,7 +101,6 @@ async function findParticipant(clientToken, roomId) {
 
 async function findParticipantBySocketId(socketId) {
   const result = await pool.query(
-    "SELECT * FROM participants WHERE socket_id = $1",
     [socketId]
   );
   return result.rows[0] || null;
