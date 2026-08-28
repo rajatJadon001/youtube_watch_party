@@ -416,7 +416,7 @@ const PORT = process.env.PORT || 5000;
 db.initDb()
   .then(() => {
     server.listen(PORT, () => {
-      console.log(`Watch Party backend (PostgreSQL) listening on port ${PORT}`);
+      console.log(`Port ${PORT}`);
     });
   })
   .catch((err) => {
