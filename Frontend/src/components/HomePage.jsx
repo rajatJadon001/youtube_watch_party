@@ -30,7 +30,7 @@ function HomePage({ onCreateRoom, onJoinRoom, errorMsg }) {
 
   return (
     <div className="home-box">
-      <h1>🎬 YouTube Watch Party</h1>
+      <h1>YouTube Watch Party</h1>
 
       <input
         type="text"
@@ -48,7 +48,7 @@ function HomePage({ onCreateRoom, onJoinRoom, errorMsg }) {
 
       <input
         type="text"
-        placeholder="Enter room code (e.g. K3F9QZ)"
+        placeholder="Enter room code"
         value={roomCode}
         onChange={(e) => setRoomCode(e.target.value)}
       />
